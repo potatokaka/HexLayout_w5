@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+li,
+ol {
+    list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+    height: auto;
+}
+a {
+    display: block;
+    color: $secondary;
+}
+a:hover {
+    text-decoration: none;
+    color: $primary-dark;
+}
+#app {
+    height: 100vh;
+}
+.main {
+    padding: 32px;
+}
+body {
+    color: $secondary;
+}

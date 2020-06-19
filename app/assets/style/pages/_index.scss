@@ -1,0 +1,104 @@
+.assignment-top {
+    margin-bottom: 6px;
+    span {
+        font-size: 12px;
+        color: #707070;
+    }
+}
+.assignment-left {
+    width: 35%;
+
+    li {
+        border: 1px solid #CDDDCD;
+        border-top: 0px;
+        padding: 12px;
+        font-size: 12px;
+        span {
+            width: 50%;
+        }
+        span:nth-child(3) {
+            width: 75%;
+        }
+        span:nth-child(4) {
+            width: 25%;
+        }
+    }
+    li:first-child {
+        border-top: 1px solid #CDDDCD;
+    }
+    li.active {
+        background: $primary;
+    }
+    .message {
+        font-size: 16px;
+    }
+    .name {
+        color: $gray;
+    }
+}
+
+.message {
+    width: 63.5%;
+
+    .message-top {
+        background: $primary;
+        border: 1px solid #CDDDCD;
+        padding: 12px;
+    
+        .message-title {
+            font-size: 16px;
+        }
+    }
+}
+
+.message-wrap {
+    border: 1px solid #CDDDCD;
+    border-top: 0px;
+
+    li {
+        padding: 16px;
+    }
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .message-inner {
+        margin-right: 32px;
+        border-bottom: 1px solid #CDDDCD;
+    }
+    li:last-child .message-inner {
+        border-bottom: 0;
+    }
+    .name {
+        font-size: 16px;
+        color: #121212;
+    }
+    .time {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .message-tx {
+        color: #121212;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .highlight {
+        color: #2A8356;
+        background: #EDF4EE;
+        padding: 2px 5px;
+    }
+    .bullet {
+        padding: 0;
+    }
+}
+
+.comment-tool {
+    a {
+        margin-right: 23px;
+    }
+    .btn {
+        padding: 8px 32px;
+    }
+}

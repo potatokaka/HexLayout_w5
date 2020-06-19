@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <!-- 載入 bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- 載入 Material Icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- 載入 bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="app" class="d-flex">
+    <aside class="sidebar d-flex flex-column justify-content-between">
+      <ul>
+        <h1>
+          <a href="#">
+            <img src="./assets/images/logo-ANSWER.svg" alt="logo">
+          </a>
+        </h1>
+        <li>
+          <a href="#">
+            <span class="material-icons">insert_chart</span>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-icons">forum</span>
+            Question
+          </a>
+        </li>
+        <li class="active">
+          <a href="#">
+            <span class="material-icons">assignment</span>
+            Assignment
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-icons">video_library</span>
+            Course
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-icons">supervisor_account</span>
+            Admin
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-icons">settings</span>
+            Settings
+          </a>
+        </li>
+      </ul>
+
+      <div class="user d-flex">
+        <img src="./assets/images/andychen.jpeg" alt="avatar">
+        <div>
+          <p>Andy Chen</p>
+          <p class="mail">andy0401@mail.com</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main flex-grow-1">
+      
+<nav class="header d-flex justify-content-between align-items-center">
+  <div class="header-title d-flex align-items-center">
+    <h2>Assignment</h2>
+    <a href="#" class="d-flex align-items-center">
+      All Courses
+      <i class="material-icons more">expand_more</i>
+    </a>
+  </div>
+  <ul class="tool-menu d-flex align-items-center">
+    <li>
+      <a href="#">
+        <i class="material-icons">
+          search
+        </i>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="material-icons">
+          notifications_active
+        </i>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<section class="assignment">
+  <div class="assignment-top d-flex align-items-center justify-content-between">
+    <a href="#" class="d-flex align-items-center">
+      All(4)
+      <i class="material-icons more">expand_more</i>
+    </a>
+    <span>2 comments</span>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <ul class="assignment-left">
+      <li class="d-flex justify-content-between align-items-center flex-wrap active">
+          <span class="title mb-1">Chapter Assignment 2</span>
+          <span class="time text-right mb-1">4 hrs ago</span>
+          <span class="message font-weight-bold">Please check this file…</span>
+          <span class="name text-right">Emily Wang</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Chapter Assignment 1</span>
+        <span class="time text-right mb-1">12 hrs ago</span>
+        <span class="message font-weight-bold">My Homework</span>
+        <span class="name text-right">David Xu</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Final Assignment</span>
+        <span class="time text-right mb-1">18 hrs ago</span>
+        <span class="message font-weight-bold">Have a problem with this…</span>
+        <span class="name text-right">Tony Wei</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Final Assignment</span>
+        <span class="time text-right mb-1">19 hrs ago</span>
+        <span class="message font-weight-bold">Did I do it right?</span>
+        <span class="name text-right">Christina Lin</span>
+      </li>
+    </ul>
+    <section class="message">
+      <div class="message-top d-flex justify-content-between align-items-center">
+        <div>
+          <span class="chaper-title mb-1">Chapter Assignment 2 / HTML&CSS</span><br/>
+          <span class="message-title font-weight-bold">Please check this file for me, thanks!</span>
+        </div>
+        <i class="material-icons"> more_vert </i>
+      </div>
+      <ul class="message-wrap mb-3">
+        <li class="d-flex justify-content-between">
+          <img class="avatar" src="./assets/images/emilywang.jpeg" alt="avatar">
+          <div class="message-inner flex-grow-1">
+            <div class="name font-weight-bold">Emily Wang</div>
+            <div class="time">10:38 AM (4 hours ago)</div>
+            <div class="message-tx mb-3">
+              Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the 
+              <span class="highlight">div</span> is bigger than the height of the <span class="highlight">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br/>
+              What is the gap or extra space below image?
+            </div>
+            <button class="btn btn-primary d-flex align-items-center mb-3 font-weight-bold">
+              <i class="material-icons mr-2">attach_file</i>
+              HW-2-David.zip
+            </button>
+          </div>
+        </li>
+        <li class="d-flex justify-content-between">
+          <img class="avatar" src="./assets/images/andychen.jpeg" alt="avatar">
+          <div class="message-inner flex-grow-1">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <div class="name font-weight-bold">Andy Chen (You)</div>
+                <div class="time">13:24 AM (1 hours ago)</div>
+              </div>
+              <ul class="tools d-flex">
+                <li>
+                  <a href="#">
+                      <i class="material-icons">star_border</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                      <i class="material-icons">edit</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="message-tx mb-3">
+              <p>
+                Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. 
+              </p>
+              <p>
+                You can:
+              </p>
+              <ul>
+                <li class="bullet">
+                  • adjust the <span class="highlight">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight">middle</span> ) or 　
+                </li>
+                <li class="bullet">
+                  • change the <span class="highlight">display</span> so it isn’t inline.
+                </li>
+              </ul>
+                
+          </div>
+        </li>
+      </ul>
+      <div class="comment-tool d-flex justify-content-between align-items-center">
+        <div class="switch d-flex">
+            <a href="#">
+                <i class="material-icons">chevron_left</i>
+            </a>
+            <a href="#">
+                <i class="material-icons">chevron_right</i>
+            </a>
+        </div>
+        <div>
+            <button class="read btn ml-3">Mark as read</button>
+            <button class="reply btn btn-primary ml-3">Reply</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+</section>
+
+
+
+    </main>
+    
+  </div>
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

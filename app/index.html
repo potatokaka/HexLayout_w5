@@ -1,0 +1,155 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<nav class="header d-flex justify-content-between align-items-center">
+  <div class="header-title d-flex align-items-center">
+    <h2>Assignment</h2>
+    <a href="#" class="d-flex align-items-center">
+      All Courses
+      <i class="material-icons more">expand_more</i>
+    </a>
+  </div>
+  <ul class="tool-menu d-flex align-items-center">
+    <li>
+      <a href="#">
+        <i class="material-icons">
+          search
+        </i>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="material-icons">
+          notifications_active
+        </i>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<section class="assignment">
+  <div class="assignment-top d-flex align-items-center justify-content-between">
+    <a href="#" class="d-flex align-items-center">
+      All(4)
+      <i class="material-icons more">expand_more</i>
+    </a>
+    <span>2 comments</span>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <ul class="assignment-left">
+      <li class="d-flex justify-content-between align-items-center flex-wrap active">
+          <span class="title mb-1">Chapter Assignment 2</span>
+          <span class="time text-right mb-1">4 hrs ago</span>
+          <span class="message font-weight-bold">Please check this file…</span>
+          <span class="name text-right">Emily Wang</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Chapter Assignment 1</span>
+        <span class="time text-right mb-1">12 hrs ago</span>
+        <span class="message font-weight-bold">My Homework</span>
+        <span class="name text-right">David Xu</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Final Assignment</span>
+        <span class="time text-right mb-1">18 hrs ago</span>
+        <span class="message font-weight-bold">Have a problem with this…</span>
+        <span class="name text-right">Tony Wei</span>
+      </li>
+      <li class="d-flex justify-content-between align-items-center flex-wrap">
+        <span class="title mb-1">Final Assignment</span>
+        <span class="time text-right mb-1">19 hrs ago</span>
+        <span class="message font-weight-bold">Did I do it right?</span>
+        <span class="name text-right">Christina Lin</span>
+      </li>
+    </ul>
+    <section class="message">
+      <div class="message-top d-flex justify-content-between align-items-center">
+        <div>
+          <span class="chaper-title mb-1">Chapter Assignment 2 / HTML&CSS</span><br/>
+          <span class="message-title font-weight-bold">Please check this file for me, thanks!</span>
+        </div>
+        <i class="material-icons"> more_vert </i>
+      </div>
+      <ul class="message-wrap mb-3">
+        <li class="d-flex justify-content-between">
+          <img class="avatar" src="./assets/images/emilywang.jpeg" alt="avatar">
+          <div class="message-inner flex-grow-1">
+            <div class="name font-weight-bold">Emily Wang</div>
+            <div class="time">10:38 AM (4 hours ago)</div>
+            <div class="message-tx mb-3">
+              Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the 
+              <span class="highlight">div</span> is bigger than the height of the <span class="highlight">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br/>
+              What is the gap or extra space below image?
+            </div>
+            <button class="btn btn-primary d-flex align-items-center mb-3 font-weight-bold">
+              <i class="material-icons mr-2">attach_file</i>
+              HW-2-David.zip
+            </button>
+          </div>
+        </li>
+        <li class="d-flex justify-content-between">
+          <img class="avatar" src="./assets/images/andychen.jpeg" alt="avatar">
+          <div class="message-inner flex-grow-1">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <div class="name font-weight-bold">Andy Chen (You)</div>
+                <div class="time">13:24 AM (1 hours ago)</div>
+              </div>
+              <ul class="tools d-flex">
+                <li>
+                  <a href="#">
+                      <i class="material-icons">star_border</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                      <i class="material-icons">edit</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="message-tx mb-3">
+              <p>
+                Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. 
+              </p>
+              <p>
+                You can:
+              </p>
+              <ul>
+                <li class="bullet">
+                  • adjust the <span class="highlight">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight">middle</span> ) or 　
+                </li>
+                <li class="bullet">
+                  • change the <span class="highlight">display</span> so it isn’t inline.
+                </li>
+              </ul>
+                
+          </div>
+        </li>
+      </ul>
+      <div class="comment-tool d-flex justify-content-between align-items-center">
+        <div class="switch d-flex">
+            <a href="#">
+                <i class="material-icons">chevron_left</i>
+            </a>
+            <a href="#">
+                <i class="material-icons">chevron_right</i>
+            </a>
+        </div>
+        <div>
+            <button class="read btn ml-3">Mark as read</button>
+            <button class="reply btn btn-primary ml-3">Reply</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+</section>
+
+
