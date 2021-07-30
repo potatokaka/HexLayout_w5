@@ -1,3 +1,5 @@
+https://potatokaka.github.io/HexLayout_w5/dist/index.html
+
 # 網頁切版直播班 Gulp 範例
 
 ## 指令列表
